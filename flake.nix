@@ -23,6 +23,10 @@
     formatter = forEachSupportedSystem ({pkgs, ...}: pkgs.alejandra);
     templates = {
       default = self.templates.empty;
+      rust = {
+        path = ./rust;
+        description = "Rust development environment";
+      };
     };
   };
 }
