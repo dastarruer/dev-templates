@@ -17,3 +17,4 @@ nix flake init -t github:dastarruer/dev-templates#rust
 The following environments are available:
 
 - `#rust`
+- `#tauri`

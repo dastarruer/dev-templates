@@ -25,7 +25,11 @@
       default = self.templates.empty;
       rust = {
         path = ./rust;
-        description = "Rust development environment";
+        description = "Rust dev environment";
+      };
+      tauri = {
+        path = ./tauri;
+        description = "Tauri dev environment using Sveltekit";
       };
     };
   };
